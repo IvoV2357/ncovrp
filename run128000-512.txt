@@ -1,0 +1,108 @@
+Start train epoch 0
+Finished epoch 0, took 131.73 s
+Validation epoch 0: avg_reward: 21.86446762084961
+Start train epoch 1
+Finished epoch 1, took 122.41 s
+Validation epoch 1: avg_reward: 19.782333374023438
+Start train epoch 2
+Finished epoch 2, took 112.34 s
+Validation epoch 2: avg_reward: 18.292724609375
+Start train epoch 3
+Finished epoch 3, took 246.46 s
+Validation epoch 3: avg_reward: 17.103282928466797
+Start train epoch 4
+Finished epoch 4, took 247.01 s
+Validation epoch 4: avg_reward: 15.833444595336914
+Start train epoch 5
+Finished epoch 5, took 247.3 s
+Validation epoch 5: avg_reward: 15.083547592163086
+Start train epoch 6
+Finished epoch 6, took 248.07 s
+Validation epoch 6: avg_reward: 14.889883041381836
+Start train epoch 7
+Finished epoch 7, took 247.13 s
+Validation epoch 7: avg_reward: 14.709179878234863
+Start train epoch 8
+Finished epoch 8, took 140.13 s
+Validation epoch 8: avg_reward: 14.516007423400879
+Start train epoch 9
+Finished epoch 9, took 117.84 s
+Validation epoch 9: avg_reward: 14.387619018554688
+Start train epoch 10
+Finished epoch 10, took 119.43 s
+Validation epoch 10: avg_reward: 14.317106246948242
+Start train epoch 11
+Finished epoch 11, took 119.25 s
+Validation epoch 11: avg_reward: 14.177240371704102
+Start train epoch 12
+Finished epoch 12, took 118.87 s
+Validation epoch 12: avg_reward: 14.086095809936523
+Start train epoch 13
+Finished epoch 13, took 116.95 s
+Validation epoch 13: avg_reward: 13.94651985168457
+Start train epoch 14
+Finished epoch 14, took 117.05 s
+Validation epoch 14: avg_reward: 13.918083190917969
+Start train epoch 15
+Finished epoch 15, took 118.23 s
+Saving model and state...
+Validation epoch 15: avg_reward: 13.915400505065918
+Start train epoch 16
+Finished epoch 16, took 150.44 s
+Validation epoch 16: avg_reward: 13.789581298828125
+Start train epoch 17
+Finished epoch 17, took 247.28 s
+Validation epoch 17: avg_reward: 13.8449125289917
+Start train epoch 18
+Finished epoch 18, took 247.78 s
+Validation epoch 18: avg_reward: 13.756755828857422
+Start train epoch 19
+Finished epoch 19, took 247.68 s
+Validation epoch 19: avg_reward: 13.879332542419434
+Start train epoch 20
+Finished epoch 20, took 135.09 s
+Validation epoch 20: avg_reward: 13.804821014404297
+Start train epoch 21
+Finished epoch 21, took 119.62 s
+Validation epoch 21: avg_reward: 13.698028564453125
+Start train epoch 22
+Finished epoch 22, took 112.55 s
+Validation epoch 22: avg_reward: 13.581189155578613
+Start train epoch 23
+Finished epoch 23, took 118.23 s
+Validation epoch 23: avg_reward: 13.569581985473633
+Start train epoch 24
+Finished epoch 24, took 119.13 s
+Validation epoch 24: avg_reward: 13.615869522094727
+Start train epoch 25
+Finished epoch 25, took 111.75 s
+Validation epoch 25: avg_reward: 13.498075485229492
+Start train epoch 26
+Finished epoch 26, took 116.67 s
+Validation epoch 26: avg_reward: 13.362066268920898
+Start train epoch 27
+Finished epoch 27, took 118.9 s
+Validation epoch 27: avg_reward: 13.422956466674805
+Start train epoch 28
+Finished epoch 28, took 119.03 s
+Validation epoch 28: avg_reward: 13.469531059265137
+Start train epoch 29
+Finished epoch 29, took 111.87 s
+Validation epoch 29: avg_reward: 13.361333847045898
+Start train epoch 30
+Finished epoch 30, took 119.34 s
+Saving model and state...
+Validation epoch 30: avg_reward: 13.408712387084961
+Start train epoch 31
+Finished epoch 31, took 120.06 s
+Validation epoch 31: avg_reward: 13.149871826171875
+Start train epoch 32
+Finished epoch 32, took 136.67 s
+Validation epoch 32: avg_reward: 13.120292663574219
+Start train epoch 33
+Finished epoch 33, took 251.58 s
+Validation epoch 33: avg_reward: 12.984784126281738
+Start train epoch 34
+Finished epoch 34, took 251.53 s
+Saving model and state...
+Validation epoch 34: avg_reward: 12.89499282836914

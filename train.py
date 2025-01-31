@@ -10,7 +10,7 @@ from dataset import CVRPDataset
 def validate(model, val_dataset):
     valdataloader = DataLoader(val_dataset, batch_size=128, num_workers=1)
     def eval_batch(x):
-        x = move_to(x, device="cuda:0")
+        x = move_to(x, device=config.DEVICE)
         cost, _, _ = model(x)
         return cost
     return (torch.cat([eval_batch(bat) for bat in valdataloader])).mean()
@@ -18,7 +18,7 @@ def validate(model, val_dataset):
 def get_routes(model, dataset):
     loader = DataLoader(dataset, batch_size=1, num_workers=1)
     def getpath_coords_depot(x):
-        x = move_to(x, device="cuda:0")
+        x = move_to(x, device=config.DEVICE)
         _, _, pi = model(x)
         pi = pi[0].cpu().detach().numpy()
         return pi, x['depot'][0].cpu().numpy(), x['coordinates'][0].cpu().numpy()
@@ -58,7 +58,7 @@ def train_epoch(model, optimizer, baseline, lr_scheduler, epoch, val_dataset, pr
     epoch_duration = time.time() - start_time
     print(f"Finished epoch {epoch}, took {round(epoch_duration, 2)} s")
 
-    if (epoch % 15 == 0 and epoch > 0) or epoch == config.N_EPOCHS - 1:
+    if (epoch % config.SAVE_CHECKPOINTS == 0 and epoch > 0) or epoch == config.N_EPOCHS - 1:
         print('Saving model and state...')
         torch.save(
             {
@@ -75,8 +75,8 @@ def train_epoch(model, optimizer, baseline, lr_scheduler, epoch, val_dataset, pr
 
 def train_batch(model, optimizer, baseline, epoch, batch_id, step, batch):
     x, bl_val = baseline.unwrap_batch(batch)
-    x = move_to(x, device="cuda:0")
-    bl_val = move_to(bl_val, "cuda:0") if bl_val is not None else None
+    x = move_to(x, device=config.DEVICE)
+    bl_val = move_to(bl_val, config.DEVICE) if bl_val is not None else None
 
     cost, log_likelihood, pi = model(x)
 

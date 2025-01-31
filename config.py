@@ -10,4 +10,4 @@ N_EPOCHS = 35
 BATCH_SIZE = 512
 EPOCH_SIZE = 128000
 SAVE_DIR = './checkpoints'
-MODEL_NAME = 'model.pt'
+MODEL_NAME = 'epoch-34.pt'
